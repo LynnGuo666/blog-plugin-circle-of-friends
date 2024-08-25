@@ -2,7 +2,7 @@ name: update-friends-posts
 
 on:
   push:
-    分支:
+    branch:
       - main
   schedule:
     - cron: "0 0,6,12,18,21 * * *"
