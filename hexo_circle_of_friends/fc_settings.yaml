@@ -35,7 +35,7 @@ SETTINGS_FRIENDS_LINKS: {
     list: [
         ["Arthal's Ink", "https://arthals.ink/", "https://cdn.arthals.ink/Arthals-mcskin.png", "rss.xml"],
         ["尘末的云端小站", "https://cmoms.top/", "https://cravatar.cn/avatar/3a67db0dcbf21d5ffebf557ecc0b1f9a?d=mp&s=80"],
-        ["单项式的笔记本", "https://www.bcmonomial.xyz/", "https://www.bcmonomial.xyz/images/xyy_current.png", "feed"],
+        ["单项式的笔记本", "https://www.bcmonomial.xyz/", "https://www.bcmonomial.xyz/images/xyy_current.png", "feed/"],
         ["晨暮群岛 Crepuscular Archipelago", "https://443eb9.dev/", "https://ghp.ci/raw.githubusercontent.com/443eb9/443eb9/main/avatar.webp", "rss?wip=0"],
         ["Ghost_Chu's Blog", "https://www.ghostchu.com/", "https://cdn.ghostchu.com/halo-ghostchu-blog/avatar.jpg"],
         ["Magma Ink", "https://magma.ink/", "https://q1.qlogo.cn/g?b=qq&nk=823202450&s=640"],
@@ -64,11 +64,11 @@ GITEE_FRIENDS_LINKS: {
 # 从github issue中获取友链
 GITHUB_FRIENDS_LINKS: {
     enable: true, # true 开启github issue兼容
-    type: "volantis",  # volantis/stellar用户请在这里填写volantis
-    owner: "LynnGuo666",  # 填写你的github用户名
-    repo: "blog-friends",  # 填写你的github仓库名
-    state: "open",  # 填写抓取的issue状态(open/closed)
-    label: "active",  # 填写抓取的issue标签
+    type: "volantis"，  # volantis/stellar用户请在这里填写volantis
+    owner: "LynnGuo666"，  # 填写你的github用户名
+    repo: "blog-friends"，  # 填写你的github仓库名
+    state: "open"，  # 填写抓取的issue状态(open/closed)
+    label: "active"，  # 填写抓取的issue标签
 }
 
 # block site list
